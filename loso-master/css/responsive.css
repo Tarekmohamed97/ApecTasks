@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+  .header-captions {
+    text-align: center;
+  }
+  .header-buttons {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .header-iphone {
+    text-align: center;
+  }
+  .header-img {
+    width: 70%;
+  }
+
+  .about-img {
+    margin: 0;
+    padding: 0;
+  }
+  .about-img2 {
+    width: 80%;
+  }
+  .why {
+    margin-top: 20px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-areas: 'left' 'middle' 'right'
+  }
+}

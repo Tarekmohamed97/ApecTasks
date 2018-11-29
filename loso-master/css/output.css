@@ -1,0 +1,311 @@
+/*
+first color :  #129CF3
+second color : #B5B5B
+
+ */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.header {
+  background-image: url('../img/header-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header-overlay {
+  background-color: rgba(31, 31, 31, 0.75);
+}
+
+.header-img {
+  width: 100%;
+}
+
+.header-captions {
+  padding-top: 6rem;
+  color: #fff;
+}
+
+.header-captions h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.header-buttons {
+  margin-top: 3rem;
+}
+
+.btn-download {
+  background-color: transparent;
+  color: #129CF3;
+  border: 1px solid #129CF3;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+.btn-download:hover {
+  background-color: #129CF3;
+  color: #fff;
+}
+
+.btn-tour {
+  font-size: 19px;
+  margin-left: 5px;
+  color: #c8c4c4;
+  text-transform: uppercase;
+}
+
+.btn-tour i {
+  color: #129CF3;
+  padding-left: .4rem
+}
+
+/*_________Section:About__________ */
+#about {
+  padding-top: 5rem;
+}
+
+.about-us {
+  margin: auto;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+
+.about-us::after {
+  content: '';
+  width: 60px;
+  position: absolute;
+  height: 1px;
+  top: 47px;
+  background: #129CF3;
+  left: 45px;
+}
+
+.about-1 {
+  padding-bottom: 3rem;
+}
+
+.about-list h3 {
+  font-weight: 400;
+  font-size:
+}
+
+.choose-us-item {
+  position: relative;
+  padding-left: 5rem;
+}
+
+.choose-us-item div {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.why {
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.why::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  top: 36px;
+  left: 0;
+  background-color: #129CF3;
+}
+
+.about-list i {
+  color: #129CF3;
+}
+
+.owners {
+  background-image: url(../img/testimonial-bg.jpg);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.owners-overlay {
+  background-color: rgba(31, 31, 31, 0.75);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.carousel-indicators {
+  bottom: -40px
+}
+
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.carousel-item img {
+  border: 3px solid #129CF3;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: transparent !important;
+}
+
+.owners-captions h2 {
+  color: #129CF3;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.owners-captions h4 {
+  color: #129CF3;
+}
+
+.owners-captions h4 span {
+  color: #D8D8D8;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.owners-captions p {
+  color: #D8D8D8;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 40px;
+  padding-bottom: 5rem;
+}
+/*features section*/
+#feature {
+  padding-top: 5rem;
+  margin-top: 10rem;
+}
+
+.features-header
+{
+  margin: auto;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  padding-top: 7rem;
+}
+.features-1
+{
+  padding-bottom: 3rem;
+}
+.features-header::after {
+  content: '';
+  width: 60px;
+  position: absolute;
+  height: 1px;
+  top: 47px;
+  background: #129CF3;
+  right: 5px;
+}
+.Enjoy {
+  position: relative;
+  padding-bottom: 2rem;
+  margin-top: 7rem;
+}
+.Sea {
+  position: relative;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+}
+.right
+{
+  position: absolute;
+  float: right;
+  padding-left: 18rem;
+  color: #129CF3;
+}
+.mobilee
+{
+   padding-left: 19rem;
+}
+.eye
+{
+  position: absolute;
+  float: right;
+  padding-left: 18rem;
+  color: #129CF3;
+  padding-bottom: 200px;
+}
+.cer
+{
+  position: absolute;
+  float: left;
+  padding-right: 10rem;
+  color: #129CF3;
+  padding-left: 30px;
+  padding-top: 70px
+}
+.rss
+{
+   position: absolute;
+  float: left;
+  padding-right: 10rem;
+  color: #129CF3;
+  padding-left: 30px;
+}
+.database
+{
+   position: absolute;
+  float: left;
+  padding-right: 10rem;
+  color: #129CF3;
+  padding-left: 30px;
+}
+.feature-iphone
+{
+  width: 120%;
+  height: 120%;
+  padding-top: 6rem;
+}
+.sky
+{
+  padding-top: 70px;
+  padding-left: 7rem;
+  padding-bottom: 2rem
+}
+.people
+{
+  margin-bottom: 10px;;
+  padding-left: 7rem;
+  margin-top: -30px;
+}
+.landmarks
+{
+  margin-top: 30px;
+  padding-left: 7rem;
+  padding-top: 10px;
+}
+.paragraph
+{
+  padding-left: 110px;;
+  width: 350px;
+  
+}
+.rondom
+{
+  width: 250px;
+}
