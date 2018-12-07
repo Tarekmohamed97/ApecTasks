@@ -1,0 +1,71 @@
+body, html
+{
+    height: 100%
+}
+.color {
+  /*font-size: 1.1rem;*/
+  color: #FFF
+}
+/*************Photo section*************/
+.page
+{
+  background-image: url('../images/cover.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:  100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 2);
+}
+/*****************************/
+/******************Bookmark heading section*****************/
+.heading
+{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+    color: #000
+}
+/*******************************************************/
+.title
+{
+    color: #FFF;
+    text-align: center;
+    font: 5rem
+}
+.h
+{
+    padding: 10px;
+    margin: 20px;
+    color: #000
+}
+.Submit
+{
+    text-align: center
+}
+
+.Name
+{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.Footer  /*For the copyright*/
+{
+  margin: 20px;
+  padding: 20px;
+  color: #FFF
+}
+/********************to edit the buttons(visit,Delete)***********/
+.save button  
+{
+  background-color: #FFF; 
+  margin: 10px;
+  padding: 10px
+}
+/**********************************************/
+.save p
+{
+  background-color: #EFEFEF; 
+  margin: 10px;
+  padding: 10px  
+}
