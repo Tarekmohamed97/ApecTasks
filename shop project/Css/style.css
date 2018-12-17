@@ -1,0 +1,78 @@
+.Entry
+{
+    padding: 10px;
+    margin: 10px;
+}
+.sub
+{
+    padding: 10px;
+    margin: 10px;
+}
+.first
+{
+    padding: 10px;
+    margin: 10px;
+    text-align: center
+}
+.horizontel
+{
+    margin-left: 150px;
+    margin-right:150px;
+    color: black
+}
+.products
+{
+    padding: 30px;
+    margin: 30px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+.hr2
+{
+    margin-left: 50px;
+    margin-right:50px;    
+}
+.search
+{
+    padding: 10px;
+    margin: 10px;
+}
+.searchbutton
+{
+    padding: 10px;
+    margin: 10px;
+}
+
+.section2
+{
+    padding: 10px;
+    margin: 10px;
+}
+
+.table2
+{
+    margin: 10px;
+    margin-top: 30px;
+}
+.browsebutton
+{
+    padding: 50px;
+    margin: 10px;
+    margin-left: 400px;
+}
+.butt{
+    padding: 50px;
+}
+.horizonte3
+{
+    margin-left: 250px;
+    margin-right:250px;
+    color: black
+}
+
+.no{
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #000;
+    margin: 70px
+}
