@@ -1,0 +1,74 @@
+1- hatnzl 2l file dah we t7to fe htdocs folder 2ly 3ndk 2ly beb2a gowa xampp (xampp/htdocs)
+
+2-for simplicity ana haseeb 2l database class 3ndkom 3alshan matshlosh ham 2l database connection 
+
+you just need to know two methods from that class to do the queries:
+
+		//tab3n 2l 2wl lazm tinclude file 2l database fe 2l file bta3 2l php 2ly hatsh8l 3alah 
+
+		a) get_query_result($query) : deh function t3mlha lw hatktb query we 3ayzha trg3lk 7aga 
+			ex: 
+				$db = new Database;
+				$query="SELECT * FROM posts where id=$id"; //enta hna 2ho bt2ool hatly kol 2l posts 2ly leha nafs 2l id 
+				$posts=$db->get_query_result($query);
+				//dlw2tiy enta 3ayz ba2a toutput 2l result deh fa hat3ml while loop 
+				while($post = $posts->fetch_assoc()){
+					echo $post['title'] //we hakaza b2a
+
+				}
+		
+		b) insert_query($query) : deh bta5od query we t3mlha fel database bs msh btdeek output 
+			zy 2l update wel alter wel add column wel klam dah 
+		ex:	$db = new Database;
+			$query = "UPDATE posts set post_view = post_view+1 where id =$id";
+			$db->insert_query($query) //bs kda msh m7tag 27otha fe variable 3alshan msh hatreturn 7aga
+
+				
+
+3-3alshan 2l database tsht8l m3akom sa7 5osh 3ala folder config 2ly hatl2oh 2ft7o 2l file 2ly gowah we ghairo 2l values 3ala 7asb 2nto 3amlnha eih 
+
+4-helpers folder hatla2o feha helpers function bt3ml format lel date we kda lw m3rftosh ts5dmoha 2zay 2b2o 2ololy 
+
+5-fe folder 2smo images hat7ot feeh 2y image hat3ozha we enta sha8al bhees lma t3ml add post fel database fe field 2l image enta hatktb 2l path 3alatool kda img/2sm2lsora.(jpg,png)
+
+6-fe fel includes ana 3amlko templates gahza kol 2ly 3alako tsht8lo 3alatool fel index.php file  mat5foosh ana mzbtkom bootstrap included y3ny ento tsht8lo 3alatool
+
+7-2l index.php ana 3aml feeh include lel header wel footer wel database class we kol 7aga gahza 7arfyn 
+
+8- fel styles hatla2o feeh file 2smo styles.css dah 2ly tshtglo feeh 3alatool ana already 3amlo include fel header file (lw hat3ozo 2ktr meen file css 2b2o 23mloh link ba2a leh fel header)
+
+9- copy the databases table and fields name zay fel swr 2ly hab3thlko plz 
+
+
+
+
+
+some notes 3ala 2l databases :
+
+1) hatla2o (post_category) dah foregin key be refrence 2l id bta3 categories table 
+
+2) 2l (post_view) lazm t5lo 2l default value bta3tha be (0)
+
+3)  fel comments table 2l (comment_post_id) dah foregin key be refrence 2l (id) bta3 2l post table
+
+4)  we 2l (comment_user_id) dah 2l mafrood yb2a foregin key bs for now sebko mno y3ny hoto fel database bs sebko meno 3alshan 2l users table msh m3ana
+
+5) (comment_status) lazm default value tb2a "pending"
+
+
+
+
+
+
+SideNotes : 
+	1) dont forget 2l comments ya gama3a that is a good practice for you 
+	
+	2) i am proud 2ny sha8al ma3a team gamd zayko we isa han3ml 27la sho8l <3 <3 <3 
+
+	3) lw 7ad 3az 7aga yklmny y2oly 3ala 2l face 2w lw 3ayz 5od nmrty 01110079308 we kalmny whats 2w kalmny mobile 7ata we isa ha7awl 2b2a online 2ktr wa2t momkn 
+
+				Good Luck <3 <3  
+
+
+
+

@@ -1,0 +1,1 @@
+//your java script code here, this file is included in the footer.php file
